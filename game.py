@@ -21,7 +21,6 @@ def hangman():
         
         print(f"Word: {display}")
         print(f"Tries left: {tries}")
-        
         guess = input("Guess a letter: ").lower()
         
         if guess in guessed_letters:
