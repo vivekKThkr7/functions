@@ -10,6 +10,5 @@ def generate_password(length=12, include_numbers=True, include_special=True):
         
     password = ''.join(random.choice(chars) for _ in range(length))
     return password
-
-# Generate a 16-character password with numbers and special characters
+    
 print(generate_password(16))
